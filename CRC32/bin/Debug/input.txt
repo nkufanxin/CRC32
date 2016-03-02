@@ -1,0 +1,144 @@
+During the last decades, the total number of
+vehicles around the world growing enormously.
+Especially in India traffic is growing four times faster
+than the population. Road safety has become a main
+issue for governments and car manufacturers in the
+last twenty years.
+The development of new vehicular technologies
+has shifted companies, researchers and institutions to
+focus their efforts on improving road safety. The
+evolution in wireless technologies has allowed
+researchers to design communication systems where
+vehicles directly take part in the network. Thus
+networks such as VANETs are created to facilitate
+communication between vehicles themselves and
+between vehicles and road side unit. Vehicular ad hoc
+network (VANET) is a technology which uses
+moving cars as nodes in a network to create a mobile
+network [2]. New concepts like smart cities and
+living labs has emerged in the last years where
+vehicular networks play an important role.
+VANETs are getting attention due to the various
+important applications related to traffic controlling
+and road safety. Smart cities full of traffic would like
+to minimize their transportation problems due to the
+increasing population that results in congested roads.
+VANET helps to solve this issue by improving
+vehicles¡¯ mobility and also helps at having more safe
+and sophisticated cities. At the beginning of the
+development of vehicular technologies, the more
+focus was on building efficient and more safe roads.
+But nowadays huge development of wireless
+technologies and their application in vehicles, it
+becomes possible to use Intelligent Transportation
+System (ITS) that will change our way to drive and
+help emergency critical services. VANETs provide
+easier communication facility among vehicles and
+also with fixed infrastructure. This will not only
+improve the road safety, but also gives benefits
+commercially.
+Pollution and congestion reduction, accidents
+prevention, safer roads are some of the benefits of
+VANETs. The development of an efficient system in
+VANETs has many important benefits, to the traffic
+police as well as to the drivers. Proper traffic alerts
+and updated information about traffic incidents will
+make safe driving, increase road safety and reduce
+the traffic jams in the city. It also helps to indentify
+where the traffic rules violations takes place.
+Furthermore, it also helps in economic ways; realtime
+traffic alerting will reduce trip time and fuel
+consumption and therefore decrease pollution as well
+[3]. So it is definitely beneficial in many ways.
+Remainder of this paper is organized as follows:
+In section II, we briefly describe the related work.
+Various Intelligent Transportation Systems (ITS) is
+discussed in this section. System overview is
+described in Section III. Further our proposed scheme
+and various routing protocols are compared with
+respect to our proposed scheme in this Section and at
+last paper is concluded in Section IV.
+In the last decades, Intelligent Transportation
+Systems (ITS) have emerged as an efficient way to
+improve the performance of the flow of vehicles on
+the roads. The goal of ITS is to provide comfortable
+driving, road safety and distribution of updated
+information about the roads. Various research work
+related to ITS have been presented in recent years.
+Some work about ITS in smart cities is presented in
+this section.
+Inter-vehicular communication is presented based
+on an adaptive traffic signal control system [4]. This
+system reduces the waiting time of the vehicles at the
+square also results in reduction in waiting time at the
+signal. To realize this system, the concept of
+clustering is used to collect the data of the vehicles
+coming towards the intersection. Clustering algorithm
+is used to compute density of vehicles within the
+cluster and sent to the traffic signal controls to set the
+timing cycle. It uses Direction based clustering
+algorithm. This algorithm is a combination of
+opportunistic dissemination technique and cluster and
+it is used to gather the required traffic information.
+The clusters are created using the direction of the
+vehicles in a given predefined geographic region
+approaching the intersection. By employing GPS and
+digital maps the direction parameter is computed
+within the vehicles.
+System that takes the control decisions based on
+the information coming from the vehicles is very well
+described by the authors [5]. Every vehicle is
+equipped with a short range communication device
+and controller nodes are placed in the intersection
+with traffic lights. This controller node at intersection
+acts as adaptive control signal system.
+In [4] and [5] two adaptive traffic light systems
+based on wireless communication between vehicles
+and fixed controller nodes deployed at squares are
+designed. Both systems improve traffic fluency,
+reduce the waiting time of vehicles at squares and
+help to avoid collisions.
+The work in [6] is a survey about multifunctional
+data driven intelligent transportation system, which
+collects a large amount of data from various
+resources: Vision-Driven ITS (input data collected
+from video sensors and used recognition including
+vehicle and pedestrian detection); Multisource-Driven
+ITS (e.g. inductive-loop detectors, laser radar and
+GPS); Learning-Driven ITS (effective prediction of
+the occurrence of accidents to enhance the safety of
+pedestrians by reducing the impact of vehicle
+collision);and Visualization-Driven ITS (to help
+decision makers quickly identify abnormal traffic
+patterns and accordingly take necessary measures).
+But, it requires large amount of memory to stores the
+videos. Also in some complex situations as shown in
+figure 1, there are some problems regarding object
+reorganization.
+In such a situation it becomes difficult to identify
+each vehicle and perhaps to find out the centroid of
+every vehicle. Hence it creates problems in traffic
+density calculation. Another problem is while doing
+object extraction, if the color of vehicle and the color
+of background become same then it becomes difficult
+to uniquely identify the object. Again we have to
+keep video data which is very large in size.
+The e-NOTIFY [7] system was designed for
+automatic accident detection, which sends the
+message to the Emergencies Center and assistance of
+road accidents using the capabilities offered by
+vehicular communication technologies. e-NOTIFY
+focuses on improving post collision care with the fast
+and efficient management of the available emergency
+resources, which increases the chances of recovery
+and survival for those injured in traffic accidents. The
+e-NOTIFY system combines both V2V and V2I
+communications to efficiently notify an accident
+situation to the Control Center. Different vehicles
+should incorporate an On- Board unit (OBU)
+responsible for (i) detecting when there has been a
+potentially dangerous impact for the occupants, (ii)
+collecting available information from sensors in the
+car, and (iii) communicating the situation to a Control
+Unit (CU) that will address the treatment of the
+warning notification and its subsequent sending.
